@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Goldman&family=Montserrat+Alternates&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat+Alternates&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Goldman&family=Montserrat+Alternates&display=swap');
+
 
 *{
     margin: 0;
@@ -9,24 +9,66 @@
     list-style: none;
     text-decoration: none;
 }
+
 .titulo{
-    text-shadow: 2px 2px 2px #000;
-    color: azure;   
+    text-shadow: 2px 2px 2px rgba(2, 2, 2, 0.603);
+    color: rgb(151, 10, 10);
+    position: absolute;
+    top: 30px;
+    left: 20%;
+    font-family: 'Montserrat Alternates' ;
+    
 }
 .subtitulo{
-    text-shadow: 2px 2px 2px #000;
-    color: rgb(19, 3, 243);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.664);
+    color: rgba(131, 5, 5, 0.884);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 70px;
+    left:20%;
+}
+.atividades{
+    position: absolute;
+    top: 95px;
+    left:20%;
 }
 .logo{
     position: absolute;
+    top: 20px;
+    left: 12%;
+
 }
 picture{
     width: 100px;
     height: 100px;
 }
 img {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
+}
+.menu{
+    display: inline;
+    position: absolute;
+    top: 23%;
+    left:20%;     
+}
+ul{
+    
+    list-style: none;
+    text-transform: uppercase;
+    position: -ms-page;
+    top: -20px;
+    left: 650px;
+}
+li{
+    display: inline-block;
+    background-color: #cf04047c;
+    padding: 5px;
+    transition: background-color 4s;
+    border-radius: 0px;
+}
+a{
+    text-decoration: none;
+    color: #000;
 }
