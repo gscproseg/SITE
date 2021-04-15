@@ -22,7 +22,7 @@
 }
 .titulo{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
-    color: #d41d1d;
+    color: #CB0000;
     position: absolute;
     top: 30px;
     left: 20%;
@@ -39,12 +39,12 @@
 }
 .atividades{
     position: absolute;
-    top: 200px;
-    left: 550px;;
+    top: 500px;
+    left: 125px;;
 }
 .logo{
     position: absolute;
-    top: 20px;
+    top: 17px;
     left: 12%;
 
 }
@@ -53,8 +53,8 @@ picture{
     height: 100px;
 }
 img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 }
 .menu{
@@ -73,7 +73,7 @@ ul{
 }
 li{
     display: inline-block;
-    background-color: #4949497c;
+    background-color: #CB0000;
     padding: 5px;
     border-radius: 20px;
 }
