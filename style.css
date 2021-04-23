@@ -15,14 +15,14 @@
 }
 
 .box{
-    background: -webkit-linear-gradient(to top, #78787a, #ffffff);
-    background: linear-gradient(to top, #78787a, #ffffff);
+    background: -webkit-linear-gradient(to top, #02111b, #02111b);
+    background: linear-gradient(to top, #02111b, #224870);
     width: vh;
     height: 170px;
 }
 .titulo{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
-    color: #CB0000;
+    color: #fbfff1;
     position: absolute;
     top: 30px;
     left: 20%;
@@ -44,9 +44,18 @@
 }
 .logo{
     position: absolute;
-    top: 17px;
+    top: 28px;
     left: 12%;
-
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.brasao{
+        position: absolute;
+        top: 5px;
+        left: 65%;
+        width: 150px;
+        height: 150px;
 }
 picture{
     width: 100px;
@@ -73,7 +82,7 @@ ul{
 }
 li{
     display: inline-block;
-    background-color: #CB0000;
+    background-color: #06364c;
     padding: 5px;
     border-radius: 20px;
 }
