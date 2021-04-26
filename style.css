@@ -45,7 +45,7 @@
 .logo{
     position: absolute;
     top: 28px;
-    left: 12%;
+    left: 9%;
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -66,12 +66,20 @@ img {
     height: 200px;
     object-fit: cover;
 }
+li > p{
+    display: none;
+    color: #ffffff;
+}
+li:hover > p{
+    display: block;
+}
 .menu{
     display: inline;
     position: absolute;
     top: 23%;
     left:20%;     
 }
+
 ul{
     
     list-style: none;
