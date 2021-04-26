@@ -69,12 +69,47 @@ img {
 li > p{
     display: none;
     color: #ffffff;
+    
+    background-color: #094e7c;
+    padding: 5px;
+    
+
+}
+p.p01{
+    position: absolute ;
+    top: 20px;
+    width: 230px;
+}
+p.p02{
+    position: absolute ;
+    top: 45px;
+    width: 230px;   
+}
+p.p03{
+    position: absolute ;
+    top: 70px;
+    width: 230px;
+     
+}
+p.p04{
+    position: absolute ;
+    top: 95px;
+    width: 230px;
+       
+}
+p.p05{
+    position: absolute ;
+    top: 120px;
+    width: 230px;
+    
+    
 }
 li:hover > p{
     display: block;
+       
 }
 .menu{
-    display: inline;
+    display: flex;
     position: absolute;
     top: 23%;
     left:20%;     
@@ -84,15 +119,17 @@ ul{
     
     list-style: none;
     text-transform: uppercase;
-    position: -ms-page;
     top: -20px;
     left: 650px;
 }
-li{
-    display: inline-block;
+.menu-link{
     background-color: #06364c;
     padding: 5px;
-    border-radius: 20px;
+    
+}
+.menu-item{
+    display: inline-block;
+
 }
 a{
     text-decoration: none;
